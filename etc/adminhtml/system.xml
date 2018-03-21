@@ -92,7 +92,7 @@
                         showInStore="1"
                 >
                     <label>Acknowledged Order Status</label>
-                    <source_model>Magento\Sales\Model\Config\Source\Order\Status\NewStatus</source_model>
+                    <source_model>Magento\Sales\Model\Config\Source\Order\Status\Processing</source_model>
                 </field>
                 <field
                         id="sort_order"

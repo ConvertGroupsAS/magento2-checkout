@@ -75,7 +75,7 @@ class Acknowledge
 
         $status = $this->getAcknowledgedOrderStatus();
 
-        $order->setState(\Magento\Sales\Model\Order::STATE_NEW)
+        $order->setState(\Magento\Sales\Model\Order::STATE_PROCESSING)
             ->setStatus($status)
             ->save();
 
