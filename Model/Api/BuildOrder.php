@@ -448,6 +448,13 @@ class BuildOrder
             ->setIsReadonly(false);
         $buildOrder->addPresetValue($presetPostcode);
 
+        $presetIsCompany = WebPayItem::presetValue()
+            ->setTypeName(\Svea\WebPay\Checkout\Model\PresetValue::IS_COMPANY)
+            ->setValue(true)
+            ->setIsReadonly(true);
+
+        $buildOrder->addPresetValue($presetIsCompany);
+
         return $this;
     }
 
