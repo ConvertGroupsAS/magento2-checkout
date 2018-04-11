@@ -13,7 +13,7 @@
     "sveaekonomi/webpay": "~3.3.2"
   },
   "require": {
-    "sveaekonomi/webpay": "~3.3.2"
+    "sveaekonomi/webpay": "~3.4.0"
   },
   "autoload": {
     "files": [
